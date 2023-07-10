@@ -73,6 +73,7 @@ function App() {
             />
             <button
               type="submit"
+              aria-label="Submit"
               className="bg-black py-4 px-4 hover:bg-gray-800 rounded-r-lg"
             >
               <img src={arrow} />
