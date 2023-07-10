@@ -4,7 +4,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 
 export default function Markerposition({ address }) {
   const customIcon = new Icon({
-    iconUrl: "./src/assets/icon-location.svg",
+    iconUrl: "./assets/icon-location.svg",
     iconSize: [32, 40],
   });
 
