@@ -4,8 +4,8 @@ import { Marker, Popup, useMap } from "react-leaflet";
 
 export default function Markerposition({ address }) {
   const customIcon = new Icon({
-    iconUrl: "./assets/icon-location.svg",
-    iconSize: [32, 40],
+    iconUrl: "https://cdn-icons-png.flaticon.com/128/3082/3082383.png",
+    iconSize: [48, 48],
   });
 
   const position = useMemo(() => {
