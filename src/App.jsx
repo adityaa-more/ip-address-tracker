@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "./App.css";
-import background from "./assets/pattern-bg-desktop.png";
+import background from "./assets/bg.jpg";
 import arrow from "./assets/icon-arrow.svg";
 import Markerposition from "./components/Markerposition";
 
@@ -50,7 +50,7 @@ function App() {
     <>
       <section className="w-full h-full">
         <div className="absolute w-full -z-10">
-          <img src={background} className="w-full h-80 opacity-90" />
+          <img src={background} className="w-full h-80 object-cover" />
         </div>
         <article className="p-8">
           <h1 className="text-2xl text-center lg:text-3xl text-white font-bold mb-8">
