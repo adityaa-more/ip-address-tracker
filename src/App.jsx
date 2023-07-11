@@ -9,10 +9,10 @@ import Markerposition from "./components/Markerposition";
 function App() {
   const [address, setAddress] = useState(null);
   const [ipAddress, setIpAddress] = useState("");
-  const checkIpAddress =
+  /*  const checkIpAddress =
     /^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$/gi;
   const checkDomain =
-    /^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+/;
+    /^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+/; */
 
   useEffect(() => {
     try {
@@ -50,7 +50,7 @@ function App() {
     <>
       <section className="w-full h-full">
         <div className="absolute w-full -z-10">
-          <img src={background} className="w-full h-80" />
+          <img src={background} className="w-full h-80 opacity-90" />
         </div>
         <article className="p-8">
           <h1 className="text-2xl text-center lg:text-3xl text-white font-bold mb-8">
