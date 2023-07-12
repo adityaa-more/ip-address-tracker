@@ -20,7 +20,6 @@ function App() {
         const res = await fetch(`https://ipapi.co/json/`);
         const data = await res.json();
         setAddress(data);
-        console.log(data);
       };
       getInitialData();
     } catch (error) {
