@@ -48,7 +48,7 @@ function App() {
   return (
     <>
       <section className="w-full h-full">
-        <div className="absolute w-full -z-10">
+        <div className="absolute w-full -z-10 object-cover">
           <img src={background} className="w-full h-80 object-cover" />
         </div>
         <article className="p-8">
@@ -121,7 +121,7 @@ function App() {
 
             <MapContainer
               center={[address.latitude, address.longitude]}
-              zoom={13}
+              zoom={14}
               scrollWheelZoom={true}
             >
               <TileLayer
